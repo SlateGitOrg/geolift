@@ -15,7 +15,9 @@ TRUE_LIFT = 0.04
 
 def sparkline(values: list[float], reference: list[float]) -> str:
     """A crude inline chart so the pre-period fit is visible, not asserted."""
-    blocks = "▁▂▃▄▅▆▇█"
+    # ASCII rather than Unicode blocks: the Windows console defaults to
+    # cp1252 and a demo that crashes on the reviewer's machine is not a demo.
+    blocks = "._-=+*#@"
     lo = min(min(values), min(reference))
     hi = max(max(values), max(reference))
     span = (hi - lo) or 1.0

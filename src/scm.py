@@ -225,7 +225,7 @@ def estimate_lift(
     if enforce_fit and sc.normalised_rmse > MAX_PRE_RMSE:
         raise PoorPreFit(
             f"pre-period RMSE is {sc.normalised_rmse:.1%} of scale "
-            f"(limit {MAX_PRE_RMSE:.0%}); the synthetic control does not track "
+            f"(limit {MAX_PRE_RMSE:.1%}); the synthetic control does not track "
             f"{treated} before treatment, so it cannot be trusted after")
 
     observed = 0.0
