@@ -1,0 +1,14 @@
+[project]
+name = "geolift"
+version = "0.1.0"
+description = "Geo incrementality testing by synthetic control, with a pre-period fit gate and placebo inference - so the lift number survives scrutiny."
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
