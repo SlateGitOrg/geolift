@@ -2,6 +2,22 @@
 
 > Geo incrementality testing by synthetic control, with a pre-period fit gate and placebo inference - so the lift number survives scrutiny.
 
+## Live deployment
+
+[![CI and deployment](https://github.com/SlateGitOrg/geolift/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/SlateGitOrg/geolift/actions/workflows/ci.yml)
+
+[Open the interactive GeoLift demo](https://slategitorg.github.io/geolift/)
+
+The deployed interface uses a deterministic offline scenario to make the repository's tested decision rule visible without external services or private data.
+
+### Desktop
+
+![GeoLift desktop deployment](docs/assets/deployed-desktop.png)
+
+### Mobile
+
+<img src="docs/assets/deployed-mobile.png" alt="GeoLift mobile deployment" width="390">
+
 `FLAGSHIP` · **Marketing Analyst** · Expert · ~5-6 weeks · Retail - regional grocery chain
 
 **Primary language:** Python
