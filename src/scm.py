@@ -1,7 +1,5 @@
 """Synthetic control, with a pre-period fit gate and placebo inference.
 
-THE DIFFERENTIATOR LIVES HERE.
-
 A geo test that compares treated against untreated regions after the fact
 attributes an ordinary regional demand difference to the campaign. Synthetic
 control fixes that by building a weighted combination of donor regions that
